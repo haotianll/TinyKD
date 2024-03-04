@@ -1,4 +1,4 @@
-# TinyKD
+# TinyKD: Exploring Effective Knowledge Distillation for Tiny Object Detection
 
 ## Environment
 
@@ -38,14 +38,17 @@ bash tools/dist_train.sh configs_tiny/aitod/aitod_faster_rcnn_r50_1x.py 1
 bash tools/dist_train.sh configs_tiny/aitod_kd/aitod_faster_r50_1x_tea_hr48_kd.py 1
 ```
 
-## Results and models
 
-**(TODO)** The pre-trained models will be publicly available in the future.
-
-<!--
 ## Citation
 If you find this code useful in your research, please consider citing:
 
 ```latex
+@inproceedings{liu2023tinykd,
+  title={Exploring Effective Knowledge Distillation for Tiny Object Detection},
+  author={Liu, Haotian and Liu, Qing and Liu, Yang and Liang, Yixiong and Zhao, Guoying},
+  booktitle={IEEE International Conference on Image Processing (ICIP)},
+  pages={770--774},
+  year={2023},
+  organization={IEEE}
+}
 ```
--->
